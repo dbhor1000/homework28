@@ -60,14 +60,6 @@ public class RecipeController {
         return ResponseEntity.notFound().build();
     }
 
-    @GetMapping("/allRecipes")
-    public ResponseEntity<Recipe> getRecipe(){
-
-        recipeService.getRecipes();
-
-        return ResponseEntity.ok().build();
-    }
-
 
 
 

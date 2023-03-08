@@ -9,7 +9,7 @@ public class FirstController {
     @GetMapping("/testConnection")
     public String initialMessage() {
 
-        return ("Приложение запущено. :))");
+        return ("Приложение запущено. :)");
 
     }
 }

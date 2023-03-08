@@ -9,7 +9,6 @@ public interface RecipeService {
     Recipe getRecipe(long recipeNumber);
     Recipe editRecipe(long recipeNumber, Recipe recipe);
     boolean deleteRecipe(long recipeNumber);
-    boolean getRecipes();
 
 
 }

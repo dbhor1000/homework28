@@ -56,17 +56,5 @@ public class RecipeServiceImpl implements RecipeService {
         return false;
     }
 
-    @Override
-    public boolean getRecipes() {
-
-        for (int i = 0; i < recipesList.size(); i++){
-            System.out.println(recipesList.get(i));
-
-        }
-
-        return true;
-
-    }
-
 
 }
